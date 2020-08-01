@@ -14,4 +14,5 @@
 - Go back to about:profiles and click the restart normally buton
 - That should be it!
 ---
+> You may how to adjust some parameters as they are adjusted to my resolution 
 
