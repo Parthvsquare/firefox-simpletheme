@@ -16,7 +16,8 @@
 }
 .titlebar-buttonbox-container {
 	background-color: rgb(50,50,52);
-	margin-top: -5.5vh !important;
+	max-height: 32px !important;
+	margin-top: -62px;
 }
 #TabsToolbar {
 	min-height: 28px !important;
@@ -31,12 +32,20 @@
 #page-action-buttons,
 .titlebar-spacer,
 .tab-line,
-#tracking-protection-icon-container, 
-#back-button, 
-#forward-button {
+#tracking-protection-icon-container {
 	display: none !important;
 	border: none !important;
 }
+
+#main-window[lwthemetextcolor=bright] tab[selected="true"] {
+	color: darkslategrey !important;
+	font-size: large;
+  }
+#main-window[lwthemetextcolor=bright] tab[selected="true"] .tab-background {
+	background-color:#F5D016 !important;
+	background-image: none !important;
+  }
+
 #identity-box {
 	visibility: collapse !important;
 }
@@ -76,6 +85,9 @@
 }
 .tabbrowser-tab[first-visible-tab][last-visible-tab]{
 	background-color: var(--uc-bar-bg-color) !important;
+}
+{
+	display: none !important;
 }
 .tab-close-button.close-icon {
 	display: none !important;
