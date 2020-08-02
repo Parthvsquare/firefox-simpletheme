@@ -4,23 +4,45 @@
 	--uc-show-tab-separators: none;
 	--uc-tab-separators-color: none;
 	--uc-tab-separators-width: none;
+	-moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+	-moz-font-smoothing-background-color: -moz-mac-vibrant-titlebar-dark !important;
+}
+/* this is section which creates transulsant effect*/
+:root #nav-bar, #PersonalToolbar, #titlebar {
+	-moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+	-moz-font-smoothing-background-color: -moz-mac-vibrant-titlebar-dark !important;
+  }
+  
+#TabsToolbar, #nav-bar, #PersonalToolbar{
+	-moz-appearance: -moz-mac-vibrancy-dark !important;
+  }
+  
+toolbar {
+	max-height: 32px !important;
+}
+/*-------------------------*/
+#PersonalToolbar{
+	margin-left: 5vw !important;
+	/*change accroding to your toolbar*/
 }
 #titlebar {
 	-moz-box-ordinal-group: 2 !important;
 }	
 #nav-bar {
 	margin-left: 3vw !important;
+	margin-top: 0.5vw !important;
 }
 #nav-bar-customization-target {
 	margin-left: 25px !important;
 }
 .titlebar-buttonbox-container {
-	background-color: rgb(50,50,52);
-	max-height: 32px !important;
-	margin-top: -62px;
+	-moz-appearance: -moz-mac-vibrancy-dark !important;;
+	max-height: 2vw !important;
+	margin-top: -3.7vw;
 }
 #TabsToolbar {
 	min-height: 28px !important;
+	-moz-appearance: -moz-mac-vibrancy-dark !important;
 }
 #TabsToolbar > .toolbar-items {
 	margin-left: -66px !important;

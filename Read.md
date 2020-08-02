@@ -3,7 +3,7 @@
 
 ---
 
-## Steps for applying this configuration
+## Steps for applying this configuration:
 
 - Type about:profiles into your urlbar and go to the page
 - Open the root directory folder specified on the page
