@@ -1,6 +1,8 @@
 # Looks like safari 
 ![Image of Theme](safari-fox.png)
-
+> without trans;usent effect 
+![Image of Theme](safari-fox_translusent.png)
+> with translusent effect
 ---
 
 ## Steps for applying this configuration:
